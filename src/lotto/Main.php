@@ -30,13 +30,13 @@ class Main extends PluginBase{
         $groupname = $group->getName();
 	$chance = 35;
 	switch($groupname){
-		case "vip":
+		case "RANKNAME1":
 		$chance = 35;
 		break;
-		case "Ez":
+		case "RANKNAME2":
 		$chance = 37;
 		break;
-		case "Senpai":
+		case "RANKNAME3":
 		$chance = 50;
 		break;
 	}
