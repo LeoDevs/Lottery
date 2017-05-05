@@ -1,0 +1,15 @@
+name: Lottery
+author: LeoDevs
+Main: lotto\Main
+version: 1.0.0
+api: [2.0.0]
+
+commands:
+    lottery
+        permissions: lottery
+        description: Rank lottery by @leo_ytg
+       
+permissions:
+    lottery:
+        default: true
+        description: lottery permission
